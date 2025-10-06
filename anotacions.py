@@ -1,32 +1,34 @@
 #fecha de entrega 12 octubre
+for i in range(1,10,2): #inicio + fin + salta de 2 en 2
+    print(i)
+
+nota = (input("escribe radio"))
+for i in range(1,5,1): #inicio + fin + salta de 2 en 2
+    print(i)
+
 
 #1 - Pregunta al usuario que introduzca el radio de un círculo y utiliza la fórmula del área (A = π * r^2) para calcular y mostrar el área.
 #Math?? Buscar python documentation
 # importamamos la libreria -->
 import math
-radio = (float)(input("Escribe el radio: "))
+radio = (input("Escribe el radio"))
 area = math.pi * math.pow(radio,2)
 print("El area del circulo es", area)
 
 
 #ejercicio 2: Utiliza la función input() para pedir al usuario 5 notas numéricas y muestra la nota media
 #media = (nota1+nota2) / 5
-notas = 0
+notas = (int)(0)
 for i in range(5):
-    nota = (input("Escribe la nota", i))
-    notas+= (int) (nota)
+    nota = (int)(input("Escribe la nota", i))
+    notas+= nota
     print(i)
 media = notas / 5
 print("La nota media es: ", media)
 
 #ejercicio 3 (en la pagina 12 documentacion de alexia)
 #Pide al usuario dos palabras y muestra el número total de letras que ha escrito el usuario
-palabra1 = (input("Escribe la primera palabra"))
-palabra2 = (input("Escribe la segunda palabra"))
-primera = len(palabra1)
-segunda = len(palabra2)
-total = (int)(palabra1 + palabra2)
-
+letras = (input("escribe dos palabras"))
 
 #ejercicio 4: Pide al usuario una frase y dos letras. Utiliza la función replace para sustituir todas las instancias de la primera letra por la segunda a la frase.
 
