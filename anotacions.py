@@ -26,19 +26,6 @@ for i in range(5):
 media = notas / 5
 print("La nota media es: ", media)
 
-#ejercicio 3 (en la pagina 12 documentacion de alexia)
-#Pide al usuario dos palabras y muestra el número total de letras que ha escrito el usuario
-letras = (input("escribe dos palabras"))
-
-#ejercicio 4: Pide al usuario una frase y dos letras. Utiliza la función replace para sustituir todas las instancias de la primera letra por la segunda a la frase.
-
-#ejercicio 5: Pide al usuario que introduzca una cadena de texto y una palabra, y utiliza las funciones find y count para mostrar la primera ubicación de la palabra y cuántas veces aparece.
-
-#ejercicio6:
-# #Pide al usuario que introduzca su fecha de nacimiento en el formato DD/MM/AAAA y utiliza la función int para extraer y mostrar el año de nacimiento.
-#pasos:pedir alusuario formato de fecha, (opcional) usando un while paraque cumpla si cumple elformato
-#por ejemplo buscar posicion 3 y 6 si es una barra (opcional)
-#siguiente paso:situarte en la posicion para extraer los datos,y luego imprimirlo
 
 
 #El while nos permite hacer un else dentro,directamente añades el else cuando quieras
